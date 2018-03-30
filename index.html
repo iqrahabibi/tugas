@@ -17,6 +17,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<!--css table-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!--End css table-->
+
+
 </head>
 <body>
 	<!--- Header Starts Here --->
@@ -57,10 +66,44 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 	<!-- Banner Ends Here --->
 	<!-- Content starts Here --->
+
+<!--Table-->
+<div class="container">
+<h2>Contextual Classes</h2>
+<p>Contextual classes can be used to color the table, table rows or table cells. The classes that can be used are: .table-primary, .table-success, .table-info, .table-warning, .table-danger, .table-active, .table-secondary, .table-light and .table-dark:</p>
+<table class="table">
+	<thead>
+		<tr>
+			<th>NIM</th>
+			<th>Nama</th>
+			<th>Email</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1512503432</td>
+			<td>Fadila Hasana</td>
+			<td>fadilahasana97@gmail.com</td>
+		</tr>
+		<tr class="table-primary">
+			<td>1512503465</td>
+			<td>Iqra Habibi</td>
+			<td>joe@example.com</td>
+		</tr>
+		<tr class="table-success">
+			<td>151201111</td>
+			<td>Kristanto Nugroho</td>
+			<td>john@example.com</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<!--end table-->
+
 	<div class="content">
 		<div class="container">
 			<div class="row content-row">
-				
 				<div class="col-md-4 content-row-column">
 					<i class="icon2"></i>
 					<h3>E-commerce</h3>
